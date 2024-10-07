@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="menu container">
+
+            <img class=" logo-1" src="imagenes/logoT.png" alt="">
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="imagenes/menup.png" alt="menu-icono" alt="">
+
+            </label>
+            <nav class="navbar">
+                <div class="menu-1">
+                    <ul>
+                        <li><a href="#Inicio">Inicio</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                    </ul>
+                </div>
+
+
+                <img class="logo-2" src="imagenes/logoT.png" alt="">
+
+                <div class="menu-2">
+
+                    <ul>
+                        <li> <a href="#Horario">Horario</a></li>
+                    </ul>
+                    <div class="socials">
+                        <a href="#">
+                            <div class="social">
+                                <img src="imagenes/s1.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="social">
+                                <img src="imagenes/s2.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/moreira_desksupplies/?utm_source=ig_web_button_share_sheet">
+                            <div class="social">
+                                <img src="imagenes/s3.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </nav>
+
+        </div>
+
+        <div class="header-content container" id="Inicio">
+
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Dorilocos</h1>
+                                <p>No te puedes perder los irresistibles Dorilocos! Si eres amante de los sabores
+                                    intensos y las combinaciones atrevidas, te invitamos a probar nuestras distintas
+                                    versiones: los clásicos Dorilocos con carne molida, Dorilocos con chorizo y
+                                    Dorilocos acompañados con bacon </p>
+                                <div class="botones">
+                                    <a href="#doriloco" class="btn-1">comprar</a>
+                                    <a href="#doriloco" class="btn-1">Menu</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="imagenes/dorilocos2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Refrescos</h1>
+                                <p>Nada mejor para acompañar tus Dorilocos que un refresco bien frío. Ya sea una gaseosa
+                                    burbujeante o un refrescante agua de sabor, es el complemento perfecto para
+                                    equilibrar los sabores intensos . ¡No olvides pedir el tuyo y disfruta de
+                                    la combinación perfecta!</p>
+                                <div class="botones">
+                                    <a href="#refresco" class="btn-1">comprar</a>
+                                    <a href="#refresco" class="btn-1">Menu</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="imagenes/refresco.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Aderezos</h1>
+                                <p>¡Personaliza tus Dorilocos con los aderezos que más te gusten y disfruta una
+                                    experiencia única de sabor!</p>
+                                <div class="botones">
+                                    <a href="#extras" class="btn-1">comprar</a>
+                                    <a href="#extras" class="btn-1">Menu</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="imagenes/Aderezos.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
+    </header>
+
+    <main class="products">
+        <div class="tabs container" id="productos">
+
+            <input type="radio" name="tabs" id="tab1" checked="checked" class="tabInput" value="1">
+            <label for="tab1" id="doriloco">Dorilocos</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper1">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide" id="#">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/dorilocos1.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Dorilocos con carne molida</h4>
+                                    <p>calidad premium</p>
+                                    <span class="price">$2.50</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/dorilocos2.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Dorilocos con bacon</h4>
+                                    <p>calidad premium</p>
+                                    <span class="price">$2.50</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/dorilocos3.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Dorilocos con chorizo</h4>
+                                    <p>calidad premium</p>
+                                    <span class="price">$2.50</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="pedido">
+                        <a href="#numero">
+                        <h3>pedidos al Whatsapp</h3> </div> </a>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+
+            <div></div>
+            <input type="radio" name="tabs" id="tab2" checked="checked" class="tabInput" value="2">
+            <label for="tab2" id="refresco">Refresco</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper2">
+
+                    <div class="swiper-wrapper">
+
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/coca.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Coca Cola</h4>
+                                    <p>calidad premium</p>
+                                    <span class="price">$1.50</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/sprite.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Sprite</h4>
+                                    <p>calidad premium</p>
+                                    <span class="price">$1.50</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/fanta.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Fanta</h4>
+                                    <p>calidad premium</p>
+                                    <span class="price">$1.50</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="pedido">
+                        <a href="#numero">
+                        <h3>pedidos al Whatsapp</h3> </div> </a>
+
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+
+            <input type="radio" name="tabs" id="tab3" checked="checked" class="tabInput" value="3">
+            <label for="tab3" id="extras">Extra</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper3">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/albahaca.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Aderezo de albahaca</h4>
+                                    <p>calidad premium</p>
+                                    <span class="price">$1.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/cheddar.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Salsa Cheddar</h4>
+                                    <p>calidad premium</p>
+                                    <span class="price">$1.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/mayonesa.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Aderezo de mayonesa</h4>
+                                    <p>calidad premium</p>
+                                    <span class="price">$1.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                   <div class="pedido">
+                    <a href="#pedido">
+                    <h3>pedidos al Whatsapp</h3> </div> </a>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </main>
+
+    <section class="info container">
+
+        <div class="info-img">
+            <img src="imagenes/dorilocos3.png" alt="">
+        </div>
+
+        <div class="info-txt">
+            <h2> Informacion </h2>
+            <p>Este proyecto de inversión se basa en la creación de un nuevo negocio que se enfocará en la venta de los
+                populares Doritos, pero con un valor agregado: aderezos innovadores y deliciosos. La idea es ofrecer a
+                los consumidores una experiencia más emocionante y sabrosa al disfrutar de sus “Doritos”.
+
+            </p>
+            <a href="https://es.m.wikipedia.org/wiki/Archivo:Dorilocos.jpg#:~:text=Resumen&text=Espa%C3%B1ol%3A%20Los%20dorilocos%20son%20una,sabores%20de%20la%20comercializadora%20Sabritas."
+                class="btn-2">Mas informacion</a>
+        </div>
+
+    </section>
+
+    <section class="Horario" id="Horario">
+        <div class="Horario-info container">
+
+            <h2>Horario</h2>
+            <div class="horario-txt">
+                <div class="txt">
+                    <h4>Direccion</h4>
+                    <p>Puerto santa Ana</p>
+                </div>
+                <div class="txt">
+                    <h4>Horario</h4>
+                    <p>Lunes a Viernes : 9 am - 2:30 pm
+                    </p>
+                    <p>
+                        Sabado y Domingo : cerrado
+                    </p>
+                </div>
+                <div class="txt" id="numero">
+                    <h4>Telefono</h4>
+                    <p>
+                        +593 98 893 9227
+                    </p>
+                </div>
+                <div class="txt">
+                    <h4>Redes sociales</h4>
+                    <div class="socials">
+                        <a href="#">
+                            <div class="social">
+                                <img src="imagenes/s1.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="social">
+                                <img src="imagenes/s2.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/moreira_desksupplies/?utm_source=ig_web_button_share_sheet">
+                            <div class="social">
+                                <img src="imagenes/s3.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <section>
+
+        <iframe class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.930370780533!2d-79.87782989047133!3d-2.180128397791352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d6dd2a59d470d%3A0x58fda2c5958045a0!2sPuerto%20Santa%20Ana%2C%20Guayaquil!5e0!3m2!1ses-419!2sec!4v1728008194665!5m2!1ses-419!2sec"
+            width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+
+    <footer class="footer container">
+
+        <img class="logo-2" src="imagenes/LOGOT.png" alt="">
+
+        <div class="links" id="pedido">
+            <h4>Para Pedidos AL WHATSAPP</h4>
+            <ul>
+                <li> <a href="https://wa.link/i7zkwp">+593 98 893 9227</a></li>
+                <li> <a href="https://wa.link/i7zkwp">+593 99 493 1846</a></li>
+                <li> <a href="https://wa.link/i7zkwp">+593 96 765 4067</a></li>
+                <li> <a href="https://wa.link/i7zkwp">+593 95 962 4160</a></li>
+            </ul>
+        </div>
+        <div class="links">
+            <h4>Links</h4>
+            <div class="socials">
+                <a href="#">
+                    <div class="social">
+                        <img src="imagenes/s1.svg" alt="">
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="social">
+                        <img src="imagenes/s2.svg" alt="">
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/moreira_desksupplies/?utm_source=ig_web_button_share_sheet">
+                    <div class="social">
+                        <img src="imagenes/s3.svg" alt="">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
